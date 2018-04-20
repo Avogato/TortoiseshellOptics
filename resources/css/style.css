@@ -21,6 +21,7 @@ body {
   height: 30rem;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   width: 100%;
   height: 30rem;
   margin: 0 auto;
@@ -71,12 +72,17 @@ a {
   display: flex;
   align-items: center;
   background-color: white;
-  margin-top: 10 rem
+  margin-top: 10rem;
 }
 
+.banner-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 1032px;
+  margin: 0 auto;
+}
 
 .banner {
-  float: right;
   margin-top: 10rem;
   background-color: white;
   padding: 1.5rem 5rem;
@@ -89,8 +95,6 @@ a {
   line-height: 1.2;
   margin: 0;
 }
-
-
 
 .services {
   display: flex;
